@@ -19,6 +19,12 @@ ul {
 a:visited {
   color: rgba(207, 204, 204, 0.479);
 }
+a:hover {
+  color: rgba(207, 204, 204, 0.884);
+}
+a {
+  color: rgba(207, 204, 204, 0.479);
+}
 
 .container-block {
   padding: 50px 40px 0px 40px;
