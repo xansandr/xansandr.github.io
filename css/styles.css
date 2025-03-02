@@ -20,10 +20,10 @@ a:visited {
   color: rgba(207, 204, 204, 0.479);
 }
 a:hover {
-  color: rgba(207, 204, 204, 0.884);
+  color: rgba(19, 19, 19, 0.884);
 }
 a {
-  color: rgba(207, 204, 204, 0.479);
+  color: rgba(225, 225, 225, 0.874);
 }
 
 .container-block {
