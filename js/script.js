@@ -207,7 +207,7 @@ languageSwitcher.addEventListener("click", function () {
       const currentTextKey = Object.keys(
         languageFiles[selectedLanguage]
       ).filter((k) => languageFiles[currentLanguage][k] === currentText);
-      console.log(currentText);
+    //   console.log(currentText);
       if (currentTextKey in languageFiles[currentLanguage]) {
         element.textContent = languageFiles[selectedLanguage][currentTextKey];
         // currentLanguage = languageFiles.selectedLanguage;
