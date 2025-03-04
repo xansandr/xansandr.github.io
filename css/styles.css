@@ -174,9 +174,13 @@ h2 span {
   margin: 0;
 }
 
-.ul-contacts > li {
+.ul-display-flex > li {
   display: flex;
+  align-items: center;
   gap: 6px;
+}
+
+.ul-contacts > li {
   margin: 0 0 15px 0;
 }
 .icon-wrapper {

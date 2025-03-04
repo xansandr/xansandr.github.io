@@ -64,6 +64,7 @@ const languageFiles = {
     sSkillTimeManagement: "Time Management",
     sSkillAccountability: "Accountability",
     sSkillAdaptability: "Adaptability",
+    portfolio: "Projects",
     cumInSoon: "Coming soon...",
   },
 
@@ -123,6 +124,7 @@ const languageFiles = {
     sSkillTimeManagement: "Zarządzanie czasem",
     sSkillAccountability: "Odpowiedzialność",
     sSkillAdaptability: "Adaptacyjność",
+    portfolio: "Проекты",
     cumInSoon: "Niedługo będzie (mam nadzieję)...",
   },
   russian: {
@@ -181,6 +183,7 @@ const languageFiles = {
     sSkillTimeManagement: "Тайм-менеджмент",
     sSkillAccountability: "Ответственность",
     sSkillAdaptability: "Адаптивность",
+    portfolio: "Проекты",
     cumInSoon: "Скоро будет (надеюсь)...",
   },
 };
