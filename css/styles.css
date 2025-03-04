@@ -175,9 +175,13 @@ h2 span {
 }
 
 .ul-contacts > li {
+  display: flex;
+  gap: 6px;
   margin: 0 0 15px 0;
 }
-
+.icon-wrapper {
+  width: 18px;
+}
 .work-place {
   display: flex;
   justify-content: space-between;
