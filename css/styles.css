@@ -54,8 +54,6 @@ h2 span {
 }
 
 .body-wrapper {
-  /* background-color: #dacece; */
-  /* margin: 0px 50px 50px 50px; */
   display: flex;
   align-items: flex-start;
   max-width: 1000px;
@@ -68,8 +66,6 @@ h2 span {
 
 .sidebar-wrapper {
   color: rgba(225, 225, 225, 0.874);
-  /* display: flex;
-  flex-direction: column; */
   min-width: 385px;
   max-width: 385px;
   height: 100%;
@@ -92,13 +88,11 @@ h2 span {
   display: flex;
   width: auto;
   gap: 50px;
-  /* padding: 50px 0px 0px 0px; */
   flex-direction: row;
   justify-content: flex-start;
 }
 
 .header > * {
-  /* margin: 50px 0px 0px 0; */
   color: rgb(53, 53, 53);
   padding: 50px 0px 0px 0px;
 }
@@ -111,7 +105,6 @@ h2 span {
 .moe-ebalo-wrapper {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   max-width: 385px;
   min-width: 385px;
   background-color: rgb(53, 53, 53);
@@ -216,31 +209,6 @@ h2 span {
   right: 10px;
   padding: 0;
   background-color: white;
-}
-
-/* #language-select {
-  
-  padding: 0;
-  width: 60px;
-  height: 30px;
-  background: url(/images/flags/britain.jpg) 100% / 100%;
-    #eee;
-}
-
-#language-select::-ms-expand { 
-  display: none;
-} */
-
-select {
-  font-size: 16px;
-  border: 1px solid #ccc;
-  height: 34px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-
-.eng-lang-bg {
-  background: url(/images/flags/britain.jpg) 100% / 100%;
+  border: 1px solid;
+  border-radius: 0;
 }
