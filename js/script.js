@@ -3,7 +3,7 @@ const languageFiles = {
     title: "Alexandr Korobeinikov",
     name: "ALEXANDR",
     surname: "KOROBEINIKOV",
-    profession: "Front-End developer?",
+    profession: "Front-End developer",
     contacts: "Contacts",
     education: "Education",
     secondaryProfessionalEducation: "Secondary professional education",
@@ -72,7 +72,7 @@ const languageFiles = {
     title: "Alexander Korobejnokow",
     name: "ALEXANDER",
     surname: "KOROBEJNOKOW",
-    profession: "",
+    profession: "Front-End developer",
     contacts: "Kontakt",
     education: "Wykształcenie",
     secondaryProfessionalEducation: "Średnie specjalne",
@@ -98,7 +98,7 @@ const languageFiles = {
     music: "Muzyka",
     guitar: "(Gitara - 200 godzin)",
     books: "Książki",
-    readed: "(przeczytałem ponad tysiąc książek)",
+    readed: "(przeczytałem 1tys książek)",
     aboutMe: "O mnie",
     switchLang: "Zmień język (russian/poland/english)",
     greeting: "Część",
@@ -124,14 +124,14 @@ const languageFiles = {
     sSkillTimeManagement: "Zarządzanie czasem",
     sSkillAccountability: "Odpowiedzialność",
     sSkillAdaptability: "Adaptacyjność",
-    portfolio: "Проекты",
+    portfolio: "Projekty",
     cumInSoon: "Niedługo będzie (mam nadzieję)...",
   },
   russian: {
     title: "Александр Коробейников",
     name: "АЛЕКСАНДР",
     surname: "КОРОБЕЙНИКОВ",
-    profession: "Фронт-энд разработчик?",
+    profession: "Фронт-энд разработчик",
     contacts: "Контакты",
     education: "Образование",
     secondaryProfessionalEducation: "Средне-специальное",
@@ -189,7 +189,7 @@ const languageFiles = {
 };
 let currentLanguage = "english";
 const languageSwitcher = document.getElementById("language-switcher");
-languageSwitcher.addEventListener("click", function () {
+languageSwitcher.addEventListener("change", function () {
   const selectedLanguage = document.getElementById("language-select").value;
   document.querySelectorAll("*").forEach(function (element) {
     if (
@@ -197,7 +197,7 @@ languageSwitcher.addEventListener("click", function () {
       element.childNodes[0].nodeType === Node.TEXT_NODE
     ) {
       let currentText = element.textContent.trim();
-
+      console.log(currentText);
       const currentTextKey = Object.keys(
         languageFiles[selectedLanguage]
       ).filter((k) => languageFiles[currentLanguage][k] === currentText);

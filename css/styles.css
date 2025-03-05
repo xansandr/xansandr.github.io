@@ -88,13 +88,13 @@ h2 span {
 }
 
 .header {
+  position: relative;
   display: flex;
   width: auto;
   gap: 50px;
   /* padding: 50px 0px 0px 0px; */
   flex-direction: row;
   justify-content: flex-start;
-  box-shadow: 0 2px 4px #0000001a;
 }
 
 .header > * {
@@ -168,6 +168,10 @@ h2 span {
   margin: 0 0 20px 0;
 }
 
+.languages .content-item {
+  margin: 0;
+}
+
 .content-item:last-child,
 .content-item > :last-child,
 .ul-contacts > :last-child {
@@ -203,4 +207,40 @@ h2 span {
 
 .palka-list > li > span {
   color: rgba(168, 168, 168, 0.151);
+}
+
+#language-switcher {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0;
+  background-color: white;
+}
+
+/* #language-select {
+  
+  padding: 0;
+  width: 60px;
+  height: 30px;
+  background: url(/images/flags/britain.jpg) 100% / 100%;
+    #eee;
+}
+
+#language-select::-ms-expand { 
+  display: none;
+} */
+
+select {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.eng-lang-bg {
+  background: url(/images/flags/britain.jpg) 100% / 100%;
 }

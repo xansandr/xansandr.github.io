@@ -16,18 +16,24 @@
   </head>
   <body>
     <div class="header">
+      <form name="languageSwitcher" id="language-switcher">
+        <select name="languageSelect" id="language-select">
+          <option class="eng-lang-bg" value="english" selected>EN</option>
+          <option class="pol-lang-bg" value="poland">PL</option>
+          <option class="rus-lang-bg" value="russian">RU</option>
+        </select>
+      </form>
       <div class="moe-ebalo-wrapper">
         <div class="moe-ebalo">
           <img src="/images/ebalnik.jpg" alt="" />
         </div>
       </div>
-
       <div class="initials">
         <h1>
           <span>ALEXANDR</span><br />
           <div>KOROBEINIKOV</div>
         </h1>
-        <h2><span>Front-End developer?</span></h2>
+        <h2><span>Front-End developer</span></h2>
       </div>
     </div>
     <div class="body">
@@ -100,28 +106,31 @@
                   <h4>
                     <div>English</div>
                   </h4>
-                  <span class="color-white__transparent"
-                    >(intermediate+)</span>
+                  <span class="color-white__transparent">(intermediate+)</span>
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Russian</div>
-                    <span class="color-white__transparent">(native)</span>
                   </h4>
+                  <span class="color-white__transparent">(native)</span>
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Belarusian</div>
-                    <span class="color-white__transparent"
-                      >(upper-intermediate)</span
-                    >
                   </h4>
+                  <span class="color-white__transparent">(intermediate+)</span>
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Czech</div>
-                    <span class="color-white__transparent">(beginner)</span>
                   </h4>
+                  <span class="color-white__transparent">(beginner)</span>
+                </li>
+                <li class="content-item">
+                  <h4>
+                    <div>Poland</div>
+                  </h4>
+                  <span class="color-white__transparent">(beginner)</span>
                 </li>
               </ul>
             </div>
@@ -130,44 +139,40 @@
             <h2>Interests</h2>
             <div class="dividing-line"></div>
             <div class="content">
-              <ul>
+              <ul class="ul-display-flex">
                 <li class="content-item">
                   <h4>
                     <div>Airsoft</div>
-                    <span class="color-white__transparent">(7 years+)</span>
                   </h4>
+                  <span class="color-white__transparent">(7 years+)</span>
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Archery</div>
-                    <span class="color-white__transparent">(1 year)</span>
                   </h4>
+                  <span class="color-white__transparent">(1 year)</span>
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Music</div>
-                    <span class="color-white__transparent"
-                      >(guitar - 200 hours)</span
-                    >
                   </h4>
+                  <span class="color-white__transparent"
+                    >(guitar - 200 hours)</span
+                  >
                 </li>
                 <li class="content-item">
                   <h4>
                     <div>Books</div>
-                    <span class="color-white__transparent">(1k+ readed)</span>
                   </h4>
+                  <span class="color-white__transparent">(1k+ readed)</span>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
         <div class="main-wrapper">
           <div class="about-me container-block">
             <h2>About Me</h2>
-            <button id="language-switcher">
-              Switch Language (russian/poland/english)</button
-            ><input id="language-select" />
             <div class="dividing-line"></div>
             <div class="content">
               <div>
