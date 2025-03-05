@@ -212,3 +212,7 @@ h2 span {
   border: 1px solid;
   border-radius: 0;
 }
+
+#language-select {
+  cursor: pointer;
+}
