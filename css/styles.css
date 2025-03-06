@@ -204,17 +204,20 @@ h2 span {
 
 #language-switcher {
   display: flex;
+  gap: 10px;
+  align-items: center;
   position: absolute;
   top: 10px;
   right: 10px;
   padding: 0;
   background-color: white;
-  border: 1px solid;
   border-radius: 0;
 }
 
 #language-select {
   cursor: pointer;
+  width: 55px;
+  padding: 5px;
 }
 
 .adaptiv {
