@@ -1,6 +1,5 @@
-/* @media screen and (max-width: 1200px) {
-    body {
-        margin: 0 20px 0 20px;
-
-      }
-} */
+@media screen and (max-width: 980px) {
+  .adaptiv {
+    display: flex;
+  }
+}

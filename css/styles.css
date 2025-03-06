@@ -216,3 +216,13 @@ h2 span {
 #language-select {
   cursor: pointer;
 }
+
+.adaptiv {
+  z-index: 1;
+  position: sticky;
+  display: none;
+  width: screen;
+  padding-left: 30px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+}
